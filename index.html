@@ -3,6 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>MeloForm Musical Samples</title>
+<script src="https://unpkg.com/pdfobject@2.2.6/pdfobject.min.js"></script>
+    <style>
+        .pdfobject-container {
+            max-width: 100%;
+            width: 700px;
+            height: 600px;
+            border: 10px solid rgba(0,0,0,.2);
+            margin: 0;
+        }
+        </style>
 </head>
 
 <body style="text-align: left;">
@@ -23,13 +33,9 @@
             <div id="1-melody">If you don't have Adobe Reader or PDF support in this web
                 browser. <a href="./demo/meloform/1-melody.pdf">Click here to download the PDF</a></div>
             
-            <embed
-                src="./demo/meloform/1-melody.pdf"
-                type="application/pdf"
-                frameBorder="0"
-                height="100%"
-                width="100%"
-            ></embed>
+            <script>
+                PDFObject.embed("./demo/meloform/1-melody.pdf", "#meloform_example1");
+            </script>
 
             <td><h5>melody</h5><audio controls="controls">
                 <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
