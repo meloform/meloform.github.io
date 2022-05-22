@@ -20,13 +20,18 @@
 <table>
     <thead>
         <tr>
-            <div id="1-melody">It appears you don't have Adobe Reader or PDF support in this web
+            <div id="1-melody">If you don't have Adobe Reader or PDF support in this web
                 browser. <a href="./demo/meloform/1-melody.pdf">Click here to download the PDF</a></div>
             
-            <script>
-            PDFObject.embed("./demo/meloform/1-melody.pdf", "#meloform_example1");
-            </script>
-            <embed src="./demo/meloform/1-melody.pdf"/>
+            <embed
+                src="./demo/meloform/1-melody.pdf"
+                type="application/pdf"
+                frameBorder="0"
+                scrolling="auto"
+                height="100%"
+                width="100%"
+            ></embed>
+            
             <td><h5>melody</h5><audio controls="controls">
                 <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
             </audio></td>
