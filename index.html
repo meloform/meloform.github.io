@@ -27,9 +27,41 @@
 
 
 <hr>
-<p>Below is the music samples from MeloForm.</p>
+
+<p>We will first compare the melodies from MeloForm with that from expert system in the following table.</p>
+<p>For comparing with baselines, we directly list the audio samples from each of them below for comparison. Since it is hard for baselines to use the same condition and musical form as they did not explicitly model musical form。</p>
+
+<table width="81%" border="1">
+  <tbody>
+    <tr>
+      <th width="22%" style="text-align: center" scope="col">Melody from Expert System (Before refine)</th>
+      <th width="26%" style="text-align: center" scope="col">Melody from MeloForm (After refine)</th>
+    </tr>
+    
+    <tr>
+      <td width="26%" style="text-align: center">
+
+        <audio controls="controls">
+            <source src="./demo/expert_system/1-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+<hr>
+
+
+<p>Below is the music samples from MeloForm that extends musical form variations.</p>
 
 <h4>Example 1: <p style='display:inline'>Verse and Chorus Form: \(A(a_{1}a_{1}a_{1})B(b_{1}b_{1}b_{1})A(a_{1}a_{1})B(b_{1}b_{1})A(a_{1}a_{1})\)</p></h4>
+
+
 <!-- <table>
     <thead>
         <tr>
@@ -89,4 +121,5 @@
 <br>
 <br>
 
-<h5 style='display:inline'>Musical Form Analysis:</h4> <p> This is a melody with musical form as \(A(a_{1}a_{1}a_{1})B(b_{1}b_{1}b_{1})A(a_{1}a_{1})B(b_{1}b_{1})A(a_{1}a_{1})\), where \(A\) represents verse and \(B\) represents chorus. As seen in the piano roll representation, the average pitch in chorus is much higher than that in verse, and the rhythm pattern is more intense in chorus by having more note density.</p>
+<h5 style='display:inline'>Musical Form Analysis:</h5> <p> This is a melody with musical form as \(A(a_{1}a_{1}a_{1})B(b_{1}b_{1}b_{1})A(a_{1}a_{1})B(b_{1}b_{1})A(a_{1}a_{1})\), where \(A\) represents verse and \(B\) represents chorus. As seen in the piano roll representation, the average pitch in chorus is much higher than that in verse, and the rhythm pattern is more intense in chorus by having more note density.</p>
+<p>Development of \(a_{1})\: </p>
