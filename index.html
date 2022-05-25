@@ -43,7 +43,7 @@
         <audio controls="controls">
             <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
         </audio>
-      <td width="26%" style="text-align: center">
+      <td width="26%" style="text-align: left">
         <p>Section A: (phrase a1: 00:00-00:09; 00:09-00:17; 00:17-00:25);</p>
         <p>Section B: (phrase b1: 00:25-00:33; 00:33-00:41; 00:41-00:49);</p>
         <p>Section A: (phrase a1: 00:49-00:57; 00:57-1:05);</p>
@@ -190,30 +190,53 @@
 
 
 
-<table>
-    <tbody>
-        <tr>
-            <td>POP909_lm</td>
-            <td> 
-                <audio controls="controls">
-                    <source src="./demo/pop909_lm/1.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-            <td>
-                <audio controls="controls">
-                    <source src="./demo/pop909_lm/2.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-            <td>
-                <audio controls="controls">
-                    <source src="./demo/pop909_lm/3.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-        </tr>
-    </tbody>
+<table width="86%" border="1">
+  <tbody>
+    <tr>
+      <th width="22%" style="text-align: center" scope="col">Melody from Music Transformer</th>
+      <th width="26%" style="text-align: center" scope="col">Description</th>
+    </tr>
+    
+    <tr>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/pop909_lm/1-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:09);</p>
+        <p>Section B: (phrase b1: 00:09-00:15);</p>
+        <p>And section B gets repeated until the end.</p>
+    </tr>
+    <tr>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/pop909_lm/2-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:04; 00:04-00:08);</p>
+        <p>Section B: (phrase b1: 00:08-00:12);</p>
+        <p>Section C: (phrase b1: 00:12-00:15);</p>
+        <p>And section C gets repeated until the end.</p>
+    </tr>
+    <tr>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/pop909_lm/3-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:03; 00:04-00:06);</p>
+        <p>Section B: (phrase b1: 00:06-00:18);</p>
+        <p>Section C: (phrase b1: 00:18-00:26);</p>
+        <p>And section C gets repeated until the end.</p>
+    </tr>
+    <tr>
+        <p>Conclusion</p>
+    </tr>
+    <tr>
+        <td width="26%" style="text-align: center">
+        <p>Although music transformer captures the repetitive patterns, but there are too much (the remaining parts are almost the repetitions.). And inside the phrases, it is hard to figure out the theme.</p>
+    </tr>
+  </tbody>
 </table>
 
 <p>Although pop909_lm can control musical form in some degree, but it seems different sections are similar, and the theme is not obvious.</p>
