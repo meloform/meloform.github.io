@@ -28,54 +28,34 @@
 
 <hr>
 
-<p>We will first compare the melodies from MeloForm with that from expert system in the following table.</p>
-
-<table width="81%" border="1">
-  <tbody>
-    <tr>
-      <th width="22%" style="text-align: center" scope="col">Melody from Expert System (Before refinement)</th>
-      <th width="26%" style="text-align: center" scope="col">Melody from MeloForm (After refinement)</th>
-    </tr>
-    
-    <tr>
-      <td width="26%" style="text-align: center">
-
-        <audio controls="controls">
-            <source src="./demo/expert_system/1-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-      <td width="26%" style="text-align: center">
-        <audio controls="controls">
-            <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-    </tr>
-    <tr>
-      <td width="26%" style="text-align: center">
-
-        <audio controls="controls">
-            <source src="./demo/expert_system/2-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-      <td width="26%" style="text-align: center">
-        <audio controls="controls">
-            <source src="./demo/meloform/2-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-    </tr>
-    <tr>
-      <td width="26%" style="text-align: center">
-
-        <audio controls="controls">
-            <source src="./demo/expert_system/3-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-      <td width="26%" style="text-align: center">
-        <audio controls="controls">
-            <source src="./demo/meloform/3-melody.mp3" autoplay="">Your browser does not support the audio element.
-        </audio>
-    </tr>
-    
-  </tbody>
-</table>
-
 
 <p>Since it is hard for baselines to use the same condition and musical form as they did not explicitly model musical form, we directly list the audio samples from each of them below for comparison.</p>
+
+<table>
+    <tbody>
+        <tr>
+            <td>Music Transformer</td>
+            <td> 
+                <audio controls="controls">
+                    <source src="./demo/meloform/1-melody.mp3" autoplay="">Your browser does not support the audio element.
+                </audio>
+                <br>
+            </td>
+            <td>
+                <audio controls="controls">
+                    <source src="./demo/meloform/2-melody.mp3" autoplay="">Your browser does not support the audio element.
+                </audio>
+                <br>
+            </td>
+            <td>
+                <audio controls="controls">
+                    <source src="./demo/meloform/3-melody.mp3" autoplay="">Your browser does not support the audio element.
+                </audio>
+                <br>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 <table>
     <tbody>
@@ -103,7 +83,7 @@
     </tbody>
 </table>
 
-<p>Although music transformer captures the repetitive patterns, but it seems too much. The remaining parts are almost the repetitions.</p>
+<p>Although music transformer captures the repetitive patterns, but it is too much. The remaining parts are almost the repetitions.</p>
 
 <table>
     <tbody>
