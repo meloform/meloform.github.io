@@ -127,33 +127,62 @@
 
 <hr>
 
-<table>
-    <tbody>
-        <tr>
-            <td>MELONS</td>
-            <td> 
-                <audio controls="controls">
-                    <source src="./demo/melons/1.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-            <td>
-                <audio controls="controls">
-                    <source src="./demo/melons/2.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-            <td>
-                <audio controls="controls">
-                    <source src="./demo/melons/3.mp3" autoplay="">Your browser does not support the audio element.
-                </audio>
-                <br>
-            </td>
-        </tr>
-    </tbody>
+
+<table width="86%" border="1">
+  <tbody>
+    <tr>
+      <th width="22%" style="text-align: center" scope="col">Melody from Music Transformer</th>
+      <th width="26%" style="text-align: center" scope="col">Description</th>
+    </tr>
+    
+    <tr>
+      <td width="26%" style="text-align: center">
+        <p>prime</p>
+        <audio controls="controls">
+            <source src="./demo/melons/1-prime.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+        <p>melody continuing the prime</p>
+        <audio controls="controls">
+            <source src="./demo/melons/1-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:09);</p>
+        <p>Section B: (phrase b1: 00:09-00:15);</p>
+        <p>And section B gets repeated until the end.</p>
+    </tr>
+    <tr>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/melons/2-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:04; 00:04-00:08);</p>
+        <p>Section B: (phrase b1: 00:08-00:12);</p>
+        <p>Section C: (phrase b1: 00:12-00:15);</p>
+        <p>And section C gets repeated until the end.</p>
+    </tr>
+    <tr>
+      <td width="26%" style="text-align: center">
+        <audio controls="controls">
+            <source src="./demo/melons/3-melody.mp3" autoplay="">Your browser does not support the audio element.
+        </audio>
+      <td width="26%" style="text-align: center">
+        <p>Section A: (phrase a1: 00:00-00:03; 00:04-00:06);</p>
+        <p>Section B: (phrase b1: 00:06-00:18);</p>
+        <p>Section C: (phrase b1: 00:18-00:26);</p>
+        <p>And section C gets repeated until the end.</p>
+    </tr>
+    <tr>
+        <p> </p>
+    </tr>
+    <tr>
+        <td width="26%" style="text-align: center">
+        <p>The first 8 bars is the given prime from human composed fragments. Although MELONS explicitly construct bar-level structure graph, the motif seems to be lost when distance is too long.</p>
+    </tr>
+  </tbody>
 </table>
 
-<p>The first 8 bars is the given motif as a prime. Although MELONS explicitly construct bar-level structure graph, the motif seems to be lost when distance is too long.</p>
+
 
 <table>
     <tbody>
